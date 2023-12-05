@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<link rel="stylesheet" href= "styles/estilo.css">
+<title>Mi portfolio</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script>
+$(document).ready(function(){
+  $("article").hide()
+  $("#menubasededatos").click(function(){
+    $("article").hide()
+    $("#base de datos").show();
+  });
+  $("#menulenguajedemarcas").click(function(){
+    $("article").hide()
+    $("#lenguaje de marcas").show();
+  });
+  });
+
+</script>
+</head>
+<body>
+
+<header>
+  <h2>Mi portfolio</h2>
+</header>
+<section>
+  <nav>
+    <ul>
+      <li id="menubasededatos"><a href="#base de datos">Base de datos</a></li>
+      <li id="menulenguajedemarcas"><a href="#lenguajedemarcas">lenguaje de marcas</a></li>
+    </ul>
+  </nav>
+  <article id="base de datos">
+    <iframe  style="width:100%; border:none"src="pages/basec de datos.html"></iframe>
+  </article>
+  <article id="lenguaje de marcas">
+    <iframe   style="width:100%; border:none"src="pages/lenguaje de marcas.html"></iframe>
+  </article>
+</section>
+
+<footer>
+  <p>LMAR 1ºASIR</p>
+</footer>
+
+</body>
+</html>
