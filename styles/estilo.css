@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+p {
+  margin-bottom: 50px;
+}
+.wrapper {
+  width: 90%;
+  margin: auto;
+  overflow:hidden;
+}
+.miportfolio {
+  background-color: #828a41;
+  padding: 30px;
+  text-align: center;
+  font-size: 40px;
+  color: white;
+}
+header {
+  background: rgb(90, 36, 36);
+  width: 100%;
+  position: fixed;
+  z-index: 10;
+}
+
+nav {
+  float: left; 
+}
+nav ul {
+  list-style: none;
+  overflow: hidden; 
+}
+nav ul li {
+  float: left;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+}
+nav ul li a {
+  display: block; 
+  padding: 20px;
+  color: #000000;
+  text-decoration: none;
+}
+nav ul li:hover {
+  background: #5a3131;
+}
+.contenido {
+  padding-top: 170px;
+ }
+
+/* Style the footer */
+footer {
+  background-color: #4d5823;
+  padding: 10px;
+  text-align: center;
+  color: white;
+}
+
+/* Responsive layout - makes the two columns/boxes stack on top of each other instead of next to each other, on small screens */
+@media (max-width: 600px) {
+  nav, article {
+    width: 100%;
+    height: auto;
+  }
+}
+
