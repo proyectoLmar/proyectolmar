@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0">
+<channel>
+<title>Proyecto LMAR</title>
+<link>https://proyectolmar.github.io/proyectolmar/</link>
+<description> Portfolio de asignaturas  </description>
+<category></category>
+<copyright>1º ASIR - LMSGI</copyright>
+<title>Proyecto LMAR</title>
+<link>https://estherostos.github.io/proyectofhw</link>
+<width>30</width>
+<height>30</height>
+<language>es-es</language>
+<webMaster>efernandezdr@gmail.com</webMaster>
+<item>
+<title>Inicio</title>
+<description>
+Es el inicio de la pagina
+</description>
+<link>
+https://proyectolmar.github.io/proyectolmar/pages/inicio.html
+</link>
+<author>efernandezdr@gmail.com</author>
+<category>inicio</category>
+</item>
+<item>
+<title>Base de datos</title>
+<description>
+En este artículo encontrará información sobre base de datos
+</description>
+<link>
+https://proyectolmar.github.io/proyectolmar/pages/basededatos.html
+</link>
+<author>efernandezdr@gmail.com</author>
+<category>Base de datos</category>
+</item>
+<item>
+<title>Lenguaje de marcas</title>
+<description>
+En este artículo encontrará información sobre lenguaje de marcas
+</description>
+<link>
+https://proyectolmar.github.io/proyectolmar/pages/lenguajedemarcas.html
+</link>
+<author>efernandezdr@gmail.com</author>
+<category>Lenguaje de marcas</category>
+</item>
+</channel>
+</rss>
