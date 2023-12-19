@@ -17,6 +17,10 @@ $(document).ready(function(){
     $("article").hide()
     $("#lenguaje de marcas").show();
   });
+    $("#menuinicio").click(function(){
+    $("article").hide()
+    $("#inicio").show();
+  });
   });
 
 </script>
@@ -30,14 +34,19 @@ $(document).ready(function(){
   <nav>
     <ul>
       <li id="menubasededatos"><a href="#base de datos">Base de datos</a></li>
-      <li id="menulenguajedemarcas"><a href="#lenguajedemarcas">lenguaje de marcas</a></li>
+      <li id="menulenguajedemarcas"><a href="#lenguajedemarcas">Lenguaje de marcas</a></li>
+      <li id="menuinicio"><a href="#inicio">Inicio</a></li>
+
     </ul>
   </nav>
   <article id="base de datos">
-    <iframe  style="width:100%; border:none"src="pages/basec de datos.html"></iframe>
+    <iframe  style="width:100%; border:none"src="pages/base de datos.html"></iframe>
   </article>
   <article id="lenguaje de marcas">
     <iframe   style="width:100%; border:none"src="pages/lenguaje de marcas.html"></iframe>
+  </article>
+   <article id="Inicio">
+    <iframe  style="width:100%; border:none"src="pages/inicio.html"></iframe>
   </article>
 </section>
 
