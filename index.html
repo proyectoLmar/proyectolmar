@@ -10,6 +10,10 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script>
 $(document).ready(function(){
+   $("#menuinicio").click(function(){
+    $("article").hide()
+    $("#inicio").show();
+  });
   $("article").hide()
   $("#menubasededatos").click(function(){
     $("article").hide()
@@ -18,11 +22,6 @@ $(document).ready(function(){
   $("#menulenguajedemarcas").click(function(){
     $("article").hide()
     $("#lenguaje de marcas").show();
-  });
-    $("#menuinicio").click(function(){
-      
-    $("article").hide()
-    $("#inicio").show();
   });
   });
 
@@ -36,21 +35,21 @@ $(document).ready(function(){
 <section>
   <nav>
     <ul>
+      <li id="menuinicio"><a href="#inicio">Inicio</a></li>
       <li id="menubasededatos"><a href="#base de datos">Base de datos</a></li>
       <li id="menulenguajedemarcas"><a href="#lenguajedemarcas">Lenguaje de marcas</a></li>
-      <li id="menuinicio"><a href="#inicio">Inicio</a></li>
-
     </ul>
   </nav>
+   <article id="Inicio">
+    <iframe  style="width:100%; border:none"src="pages/inicio.html"></iframe>
+  </article>
   <article id="base de datos">
     <iframe  style="width:100%; border:none"src="pages/base de datos.html"></iframe>
   </article>
   <article id="lenguaje de marcas">
     <iframe   style="width:100%; border:none"src="pages/lenguaje de marcas.html"></iframe>
   </article>
-   <article id="Inicio">
-    <iframe  style="width:100%; border:none"src="pages/inicio.html"></iframe>
-  </article>
+
 </section>
 
 <footer>
