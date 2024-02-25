@@ -1,0 +1,23 @@
+<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es" xml:base="https://proyectolmar.github.io/proyectolmar/">
+    <id>https://proyectolmar.github.io/proyectolmar/</id>
+    <title>ProyectoLMAR y atom</title>
+    <updated>2023-12-21T19:06:00+01:00</updated>
+    <link rel="alternate" href="https://proyectolmar.github.io/proyectolmar/atom.xml/"/>
+    <author>
+    <name>Elena Fernandez Del Rey</name>
+    <email>fedeel_aliesma2324@iesmedinaazahara.es</email>
+    </author>
+    <category term="Portfolio"/>
+    <icon>images/atom.jpg</icon>
+    <entry>
+    <id> https://proyectolmar.github.io/proyectolmar/basededatos.html </id>
+    <title>Información sobre base de datos</title>
+    <updated>2023-12-12T18:30:00+01:00</updated>
+    <author>
+    <name>Elena Fernandez Del Rey</name>
+    <email>fedeel_aliesma2324@iesmedinaazahara.es</email>
+    </author>
+    <summary> En este artículo encontrará información sobre base de datos </summary>
+    <link rel="alternate" href="https://proyectolmar.github.io/proyectolmar/basededatos.html"/>
+    </entry>
+    </feed>
